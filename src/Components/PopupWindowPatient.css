@@ -1,0 +1,82 @@
+/*Pop up for patient*/
+/* Normal (vanlig och fet stil) */
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf")
+    format("truetype");
+  font-weight: 100 900; /* Tillåt hela viktintervallet */
+  font-style: normal;
+}
+
+/* Kursiv */
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf")
+    format("truetype");
+  font-weight: 100 900; /* Tillåt hela viktintervallet */
+  font-style: italic;
+}
+
+.patient-popup {
+  margin-top: 30px;
+  width: 450px;
+  height: 552px;
+  position: relative;
+}
+
+.patient-contentpopup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background: #eee;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bankid-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 310px;
+  height: 40px;
+  background-color: #000;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+
+/*.bankid-btn strong {
+  font-weight: 800;
+}*/
+
+#bankid-btn1 {
+  border-radius: 5.25rem;
+  background: #c3ffb3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+
+#bankid-btn2 {
+  border-radius: 5.25rem;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#bankid-icon {
+  width: 200px;
+  height: auto;
+}
+
+#exit-icon {
+  width: 25px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}

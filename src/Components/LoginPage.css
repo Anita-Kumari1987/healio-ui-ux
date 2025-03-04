@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.signin-as {
+  display: flex;
+  gap: 20px;
+}
+
+.patient-inlog {
+  background-color: #c3ffb3;
+  fill: #c3ffb3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 25rem;
+  height: 10rem;
+  flex-shrink: 0;
+  border-radius: 20px;
+  padding: 6px 6px 7px 16px;
+  font-weight: bold;
+  position: relative; /* Add this */
+}
+
+#patientBtn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 6px 6px 7px 16px;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  font-weight: bold;
+  gap: 5px;
+}
+
+#patientBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.patient-inlog > p:last-of-type {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.signup-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.med-inlog {
+  background-color: #000;
+  color: #fff;
+  fill: #000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 25rem;
+  height: 10rem;
+  flex-shrink: 0;
+  border-radius: 20px;
+  padding: 6px 6px 7px 16px;
+  font-weight: bold;
+}
+
+#medBtn {
+  background-color: #c3ffb3;
+  color: #000;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 6px 6px 7px 16px;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-weight: bold;
+  gap: 5px;
+}
+
+#medBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.arrow-icon {
+  width: 25px;
+  height: auto;
+}
+
+/* Center the pop-ups and apply background blur */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+
+  width: 500px;
+  text-align: center;
+}
+
+.blur-background {
+  filter: blur(5px);
+}
