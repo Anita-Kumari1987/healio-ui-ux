@@ -1,0 +1,62 @@
+/*Pop up for medstaff*/
+
+.medsaff-popup {
+  margin-top: 30px;
+  width: 450px;
+  height: 552px;
+  position: relative;
+}
+
+.medstaff-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background: #eee;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  p {
+    font-weight: bold;
+    text-align: left;
+    width: 60%;
+    font-size: 1rem;
+  }
+}
+
+#sign-inmed {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+#sign-inmed::placeholder {
+  font-size: 1rem;
+  color: #888;
+  padding: 15px;
+}
+.signin-btnmed {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 1rem;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  position: relative;
+  padding-left: 20px;
+  gap: 25px;
+}
+
+#arrow-login {
+  width: 30px;
+  height: auto;
+}
