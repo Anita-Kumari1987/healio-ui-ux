@@ -1,0 +1,38 @@
+.inputField-Container{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  
+  width: 500px;
+}
+input{
+  height: 35px;
+  width: 95%;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 7px;
+  padding-left: 15px;
+}
+input::placeholder {
+  color: #222020;
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.8; 
+}
+input[type="date"] {
+  font-size: 17px; 
+  padding: 8px;
+  padding-right: 13px;
+  opacity: 0.8; 
+}
+.name{
+  display: flex;
+  gap: 15px;
+}
+.name1{
+width: 220px;
+}
+.name2{
+  width: 220px;
+}

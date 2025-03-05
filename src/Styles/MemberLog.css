@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.memberLogIn{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7rem;
+}
+.logIn{
+  font-weight: 700;
+  text-decoration: underline;
+  padding-left: 5px;
+}

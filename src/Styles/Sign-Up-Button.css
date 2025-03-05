@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.signIn-Btn{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  width: 250px; 
+  height: 55px; 
+  padding: 10px 20px;
+  background-color:black;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 40px; 
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.text {
+  flex-grow: 1; 
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px; 
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  color: black; 
+}
+.arrow-Icon{
+  height: 45px;
+  width: 45px;
+}
+.bottomDiv{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  
+}

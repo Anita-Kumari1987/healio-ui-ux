@@ -1,8 +1,11 @@
+import React from "react";
+import "../Styles/MemberLog.css";
+
 const MemberLogInClick = () => {
   return (
-    <div>
+    <div className="memberLogIn">
       <p>Already a member?</p>
-      <h3>Log in.</h3>
+      <p className="logIn">Log in.</p>
     </div>
   );
 };
