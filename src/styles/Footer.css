@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    font-family: Arial, sans-serif;
+   }
+   
+   
+   .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+   
+   
+   /* Left Section */
+   .footer-left {
+    max-width: 300px;
+   }
+   
+   
+   .footer-heading {
+    font-family: 'Climate Crisis', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+   }
+   
+   
+   .email-signup {
+    display: flex;
+    margin: 10px 0;
+   }
+   
+   
+   .email-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+   }
+   
+   
+   .signup-button {
+    background-color: #c7ffa1;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+   }
+   
+   
+   .social-icons {
+    margin-top: 10px;
+   }
+   
+   
+   .social-icons i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+   }
+   
+   
+   
+   .footer-links {
+    display: flex;
+    gap: 50px;
+   }
+   
+   
+   .footer-column {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   
+   .footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+   }
+   
+   
+   .footer-column a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    transition: 0.3s;
+   }
+   
+   
+   .footer-column a:hover {
+    color: #c7ffa1;
+   }
+   
+   
+   
+   .footer-bottom {
+    
+     position: relative;
+     height: 120px; 
+     display: flex;
+     align-items: center;
+    }
+    
+    
+    .footer-logo-container {
+     position: relative;
+     display: flex;
+     align-items: center;
+    }
+    
+    
+    .footer-logo {
+     font-family: 'Climate Crisis', sans-serif;
+     font-size: 6rem;
+     font-weight: bold;
+     /* bottom: 0; */
+     /* margin-right: 0px;  */
+    }
+    
+    
+    .footer-logo-icon {
+     width: 50px; 
+     height: auto;
+     position: relative; 
+     top: -30px; 
+     right: auto; 
+    }
+    
+    
+    .footer-accent {
+     background-color: #c7ffa1;
+     height: 40px;
+     width: 100%;
+     position: absolute;
+     bottom: -10px;
+    }
+
+
+    @media (max-width: 768px) {
+      .footer-container {
+          flex-direction: column; /* Stack elements vertically */
+          align-items: center;
+          text-align: center;
+      }
+  
+      .footer-left,
+      .footer-links {
+          width: 100%;
+          margin-bottom: 20px;
+      }
+  
+      .footer-left .email-signup {
+          flex-direction: column; 
+          align-items: center;
+      }
+  
+      .email-input {
+          width: 100%; 
+          margin-bottom: 10px;
+      }
+  
+      .social-icons {
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+      }
+  
+      .footer-links {
+          gap: 30px;
+          justify-content: center;
+      }
+  
+      .footer-column h3 {
+          font-size: 1.1rem;
+      }
+  
+      .footer-column a {
+          font-size: 14px; 
+      }
+  
+      .footer-logo {
+          font-size: 3rem; 
+      }
+  
+      .footer-logo-icon {
+          width: 40px; 
+          top: -10px;
+      }
+  
+      .footer-accent {
+          height: 30px; 
+          bottom: 1px;
+      }
+  }
+  
+ 
+  @media (max-width: 480px) {
+      .footer-heading {
+          font-size: 1rem; 
+      }
+  
+      .email-input {
+          width: 100%; 
+      }
+  
+      .signup-button {
+          width: 100%; 
+          padding: 8px;
+      }
+  
+      .social-icons i {
+          font-size: 1.2rem; /* Smaller icons */
+          margin-right: 8px;
+      }
+  
+      .footer-logo {
+          font-size: 2.5rem; 
+      }
+  
+      .footer-logo-icon {
+          width: 35px; 
+          top: -20px;
+      }
+  
+      .footer-accent {
+          height: 20px; 
+          
+      }
+  }
+  
+    

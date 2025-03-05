@@ -1,0 +1,146 @@
+
+  /* Default Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  border-bottom: 2px solid #ddd;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Spacing between logo and links */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: white;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  margin: 0 8px;
+}
+
+.search-icon,
+.mic-icon {
+  color: black;
+  font-size: 14px;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Mobile and Tablet Styles */
+@media (max-width: 1024px) {
+  .nav-left {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      margin-left: 0;
+      width: 100%;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .nav-link {
+      margin-bottom: 10px;
+      font-size: 14px;
+  }
+
+  .search-box {
+      width: 90%;
+  }
+
+  
+  .nav-right {
+      flex-direction: column;
+      gap: 10px; 
+  }
+
+  .login-btn {
+      width: 50%;
+      margin-top: 10px; 
+      margin-left: 90px; 
+  }
+
+  /* Show the hamburger menu */
+  .hamburger-menu {
+      display: block;
+  }
+}
+
+/* Small Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .nav-logo {
+      height: 25px;
+  }
+
+  .nav-link {
+      font-size: 12px;
+  }
+
+  .search-box {
+      width: 90%;
+      margin-bottom: 10px;
+  }
+
+  .search-box input {
+      font-size: 12px;
+  }
+
+  .login-btn {
+      font-size: 12px;
+      padding: 6px 6px;
+  }
+}
