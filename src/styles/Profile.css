@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+  .profile-container {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+   
+  }
+.profile-hero {
+    background-color: #c7ffa1; 
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    height: 280px;
+    margin-bottom: 800px;
+}
+
+.profile-hero h1 {
+    font-size: 5em;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+  
+    bottom: 10px;
+    left: 20px;
+}
+.profile-hero-content{
+    position: absolute;
+    bottom: 0px;
+    left: 1100px;
+}
+
+.profile-hero-image {
+    width: 400px; 
+    height: auto; 
+}
+
+.profile-hero-image img {
+  width: 100px; 
+  height: 100px;
+}
+
+.patient-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+  font-family: 'poppin', sans-serif;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.profile-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.profile-pic {
+  width: 230px;
+  height: 280px;
+  border-radius: 10%;
+  margin-right: 20px;
+}
+
+
+ .profile-info {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.profile-info h2 {
+    margin-bottom: 20px; 
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px; 
+}
+
+.profile-info li {
+    margin: 10px 0; 
+}
+
+.profile-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #c7ffa1;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 18px;
+    width: 250px;
+    cursor: pointer;
+    margin-top: auto; 
+}
+
+.profile-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-right-svg {
+  width: 100%;
+  height: auto;
+}
