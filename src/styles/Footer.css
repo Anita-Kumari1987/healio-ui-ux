@@ -6,7 +6,6 @@
     font-family: Arial, sans-serif;
    }
    
-   
    .footer-container {
     display: flex;
     justify-content: space-between;
@@ -14,8 +13,6 @@
     flex-wrap: wrap;
     gap: 10px;
    }
-   
-   
    /* Left Section */
    .footer-left {
     max-width: 300px;
@@ -24,8 +21,12 @@
    
    .footer-heading {
     font-family: 'Climate Crisis', sans-serif;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
+    width: 500px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    position: relative;
    }
    
    
@@ -81,16 +82,17 @@
    
    
    .footer-column h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
    }
    
    
    .footer-column a {
     text-decoration: none;
-    color: white;
+    color: rgb(187, 182, 182);
     margin-bottom: 5px;
     transition: 0.3s;
+    padding: 7px;
    }
    
    

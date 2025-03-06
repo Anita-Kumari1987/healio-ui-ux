@@ -1,0 +1,105 @@
+.msgCalenderContainer{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  gap: 40px;
+  
+}
+.messageContainer{
+  width: 52%;
+  height: 90%;
+  background-color: rgb(217, 214, 214);
+  padding: 20px;
+  border-radius: 20px;
+ 
+}
+.msg-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.icon-Group{
+  display: flex;
+  margin: 20px;
+  gap: 30px;
+}
+.expand-icon{
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  margin-bottom: 20px;
+}
+.expandArrow{
+  height: 30px;
+  width: 30px;
+}
+.custom-icon{
+  font-size: 25px;
+  padding-left: 5px;
+}
+.msgText{
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+.msg-Lists img{
+  width: 100%;
+  height: 300px;
+  border-radius: 25px;
+}
+.calendar {
+  width: 600px;
+  height:380px;
+  background: rgb(5, 5, 5);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 20px;
+}
+.calendar h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.weekdays, .days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+}
+.weekdays div {
+  font-weight: bold;
+  padding: 5px;
+}
+.days div {
+  padding: 10px;
+  margin: 5px;
+  background: #ddd;
+  border-radius: 5px;
+}
+.days div.today {
+  background: #C3FFB3;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 50%;
+}
+.calenderContainer{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.days div{
+  background-color: black;
+}
+
