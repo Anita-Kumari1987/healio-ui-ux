@@ -3,7 +3,6 @@ import "../Styles/Healio.css";
 import SvgIcons from "../Components/SvgIcons";
 import doctorpic from "../image/doctorpic.svg";
 import ArrowContent from "../Components/ArrowContent";
-import { FaSearch, FaMicrophone } from "react-icons/fa";
 import doctorIcon from "../image/doctor-icon.svg";
 import prescriptionIcon from "../image/prescription-icon.svg";
 import healioIcon from "../image/healio-icon.svg";

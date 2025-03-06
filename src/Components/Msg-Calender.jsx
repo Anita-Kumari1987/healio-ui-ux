@@ -11,7 +11,7 @@ const MsgCalender = () => {
           <div className="icon-Group">
             <button className="expand-icon">
               <span>EXPAND</span>
-              <span class="icon">
+              <span className="icon">
                 <img
                   className="expandArrow "
                   src="./images/Arrow-white.svg"
@@ -20,10 +20,10 @@ const MsgCalender = () => {
               </span>
             </button>
             <div className="icon-Div">
-              <i class="fa-solid fa-magnifying-glass custom-icon"></i>
+              <i className="fa-solid fa-magnifying-glass custom-icon"></i>
             </div>
             <div className="icon-Div">
-              <i class="fa-solid fa-plus custom-icon"></i>
+              <i className="fa-solid fa-plus custom-icon"></i>
             </div>
           </div>
         </div>
@@ -32,9 +32,9 @@ const MsgCalender = () => {
         </div>
       </div>
       <div className="calenderContainer">
-        <div class="calendar">
+        <div className="calendar">
           <h2>March 2025</h2>
-          <div class="weekdays">
+          <div className="weekdays">
             <div>Sun</div>
             <div>Mon</div>
             <div>Tue</div>
@@ -43,7 +43,7 @@ const MsgCalender = () => {
             <div>Fri</div>
             <div>Sat</div>
           </div>
-          <div class="days">
+          <div className="days">
             <div></div>
             <div></div>
             <div></div>
@@ -55,7 +55,7 @@ const MsgCalender = () => {
             <div>4</div>
             <div>5</div>
             <div>6</div>
-            <div class="today">7</div>
+            <div className="today">7</div>
             <div>8</div>
             <div>9</div>
             <div>10</div>

@@ -18,9 +18,9 @@ const ActionDP = () => {
                 id="Icon"
                 d="M31 40.6666L41.3333 30.5M41.3333 30.5L31 20.3333M41.3333 30.5H20.6666M56.8333 30.5C56.8333 44.5372 45.2673 55.9166 31 55.9166C16.7326 55.9166 5.16663 44.5372 5.16663 30.5C5.16663 16.4627 16.7326 5.08331 31 5.08331C45.2673 5.08331 56.8333 16.4627 56.8333 30.5Z"
                 stroke="black"
-                stroke-width="5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </svg>
@@ -41,9 +41,9 @@ const ActionDP = () => {
                 id="Icon"
                 d="M31 40.6666L41.3333 30.5M41.3333 30.5L31 20.3333M41.3333 30.5H20.6666M56.8333 30.5C56.8333 44.5372 45.2673 55.9166 31 55.9166C16.7326 55.9166 5.16663 44.5372 5.16663 30.5C5.16663 16.4627 16.7326 5.08331 31 5.08331C45.2673 5.08331 56.8333 16.4627 56.8333 30.5Z"
                 stroke="black"
-                stroke-width="5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </svg>
@@ -64,9 +64,9 @@ const ActionDP = () => {
                 id="Icon"
                 d="M31 40.6666L41.3333 30.5M41.3333 30.5L31 20.3333M41.3333 30.5H20.6666M56.8333 30.5C56.8333 44.5372 45.2673 55.9166 31 55.9166C16.7326 55.9166 5.16663 44.5372 5.16663 30.5C5.16663 16.4627 16.7326 5.08331 31 5.08331C45.2673 5.08331 56.8333 16.4627 56.8333 30.5Z"
                 stroke="black"
-                stroke-width="5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </svg>
@@ -87,9 +87,9 @@ const ActionDP = () => {
                 id="Icon"
                 d="M31 40.6666L41.3333 30.5M41.3333 30.5L31 20.3333M41.3333 30.5H20.6666M56.8333 30.5C56.8333 44.5372 45.2673 55.9166 31 55.9166C16.7326 55.9166 5.16663 44.5372 5.16663 30.5C5.16663 16.4627 16.7326 5.08331 31 5.08331C45.2673 5.08331 56.8333 16.4627 56.8333 30.5Z"
                 stroke="black"
-                stroke-width="5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </svg>

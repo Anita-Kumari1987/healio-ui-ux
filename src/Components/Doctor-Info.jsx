@@ -4,15 +4,15 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const DoctorInfo = () => {
   return (
-    <div class="container">
-      <div class="doctor-card">
-        <div class="doctor-image">
-          <img src="DoctorImage.jpg" alt="Doctor" />
-          <div class="edit-icon">
-            <i class="fas fa-pen"></i>
+    <div className="container">
+      <div className="doctor-card">
+        <div className="doctor-image">
+          <img src="./images/DoctorImage.jpg" alt="Doctor" />
+          <div className="edit-icon">
+            <i className="fas fa-pen"></i>
           </div>
         </div>
-        <div class="doctor-info">
+        <div className="doctor-info">
           <div className="doctor-name">
             <h2>Dr. Aubrey Graham</h2>
           </div>
@@ -21,8 +21,8 @@ const DoctorInfo = () => {
             <p>Employee ID: MED-456789</p>
             <p>Employer: OmniWell Care</p>
             <button className="more-button">
-              <span class="more">MORE</span>
-              <span class="ArrowBlack">
+              <span className="more">MORE</span>
+              <span className="ArrowBlack">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="30px"
@@ -38,10 +38,10 @@ const DoctorInfo = () => {
         </div>
       </div>
 
-      <div class="right-section">
-        <div class="button btn1">
+      <div className="right-section">
+        <div className="button btn1">
           BOOK NOW
-          <span class="icon">
+          <span className="icon">
             <img
               className="arrow-Icon arrow1"
               src="./images/Arrow-white.svg"
@@ -49,7 +49,7 @@ const DoctorInfo = () => {
             />
           </span>
         </div>
-        <div class="button btn2 ">
+        <div className="button btn2 ">
           SEARCH FOR PATIENTS
           <span>
             <img
@@ -60,8 +60,8 @@ const DoctorInfo = () => {
           </span>
         </div>
 
-        <div class="upcoming">UPCOMING APPOINTMENTS</div>
-        <div class="appointment-card">
+        <div className="upcoming">UPCOMING APPOINTMENTS</div>
+        <div className="appointment-card">
           <div className="appointment-text">
             <p>Patient </p>
 

@@ -2,7 +2,7 @@
 /* Normal (vanlig och fet stil) */
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf")
+  src: url("../assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf")
     format("truetype");
   font-weight: 100 900; /* Tillåt hela viktintervallet */
   font-style: normal;
@@ -11,7 +11,7 @@
 /* Kursiv */
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf")
+  src: url("../assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf")
     format("truetype");
   font-weight: 100 900; /* Tillåt hela viktintervallet */
   font-style: italic;

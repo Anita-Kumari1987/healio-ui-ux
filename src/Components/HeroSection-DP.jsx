@@ -5,14 +5,14 @@ import "../Styles/HeroSection-DP.css";
 
 const HeroSectionDP = () => {
   return (
-    <div class="profile-card">
-      <div class="content">
+    <div className="profile-card">
+      <div className="content">
         <h2>PROFILE</h2>
       </div>
       <div className="editContainer">
-        <div class="edit">
+        <div className="edit">
           <span>EDIT</span>
-          <i class="fas fa-pen"></i>
+          <i className="fas fa-pen"></i>
         </div>
 
         <div className="hero-decor">

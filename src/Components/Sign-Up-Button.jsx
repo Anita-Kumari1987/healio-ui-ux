@@ -4,8 +4,8 @@ import "../Styles/Sign-Up-Button.css";
 const SignUpButton = () => {
   return (
     <button className="signIn-Btn">
-      <span class="text">SIGN UP</span>
-      <span class="icon">
+      <span className="text">SIGN UP</span>
+      <span className="icon">
         <img
           className="arrow-Icon"
           src="./images/Arrow-white.svg"
