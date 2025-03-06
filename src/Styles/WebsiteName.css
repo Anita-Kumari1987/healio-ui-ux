@@ -4,8 +4,6 @@
 .website_Name{
   font-size: 90px;
   font-family: 'Climate Crisis', sans-serif;
-  position: absolute;
-  top: 0;
-  right: 0;
-
+  margin-top: 700px;
+ 
 }

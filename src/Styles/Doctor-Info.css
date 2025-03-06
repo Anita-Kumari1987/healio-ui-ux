@@ -1,0 +1,186 @@
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  
+}
+
+/* Doctor Card */
+.doctor-card {
+  display: flex;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 600px;
+}
+
+.doctor-image {
+  position: relative;
+  width: 50%;
+}
+
+.doctor-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgb(7, 7, 7);
+  color: rgb(245, 241, 241);
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.doctor-info {
+  width: 50%;
+  padding: 16px;
+}
+.doctor-name {
+  height: 100px;
+  color: white;
+  display: block;
+  
+}
+
+.doctor-name h2{
+  color: white;
+  position: relative;
+  font-size: 20px;
+}
+
+.doctor-info h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.doctor-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-info p {
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+.more-button {
+  background-color: #b3f38f;
+  color: black;
+  width: 200px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.more{
+  font-size: 1rem;
+
+}
+
+
+
+/* Right Section */
+.right-section {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  width: 800px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.button {
+  background: black;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding:16px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  height: 45px;
+  gap: 50px;
+}
+
+.upcoming {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  align-self: flex-start;
+ 
+}
+
+.appointment-card {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12px;
+  margin-top: 8px;
+  width: 800px;
+  height: 220px;
+  background-image: url('/doctor.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.appointment-text {
+  flex: 1;
+}
+
+.appointment-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.doctor_details{
+  margin-top: auto;
+  
+}
+.doctor_details p{
+  font-size: 15px;
+}
+
+.arrow1{
+  margin-right: 30px;
+}
+.btn1{
+  width: 250px;
+}
+.btn2{
+  width: 450px;
+}
+.appointment-text{
+  font-size: 1.7rem;
+  line-height: 5%;
+  padding: 10px;
+}
+.appointment-text p{
+padding:5px;
+}

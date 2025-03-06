@@ -6,7 +6,7 @@
   align-items: center;
   padding: 10px 20px;
   background: white;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #c22828;
 }
 
 .nav-left {
@@ -22,7 +22,7 @@
 .nav-links {
   display: flex;
   align-items: center;
-  margin-left: 20px; /* Spacing between logo and links */
+  margin-left: 20px;
 }
 
 .nav-link {
